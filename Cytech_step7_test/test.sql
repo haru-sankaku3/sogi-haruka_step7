@@ -6,13 +6,13 @@ from users;
 Select * 
 from users
 where created_at 
-like 2024%;
+like '2024%';
 
 --設問3
 Select * 
 from users
 where age<30 
-and gender= female;
+and gender='female';
 
 --設問4
 Select product_name,price
@@ -160,7 +160,7 @@ where id=4;
 
 --設問26
 update products
-set price=price*1.1
+set price=price*1.1;
 
 --設問27
 update orders
